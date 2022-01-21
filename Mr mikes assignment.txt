@@ -1,0 +1,58 @@
+One difference between microservice and monolithic
+The Monolithic Architecture is regarded as the conventional method of application development. An application in Monolithic architecture is developed as a single package. On the other hand, Microservice architecture follows a modular approach to develop various applications. A Microservice Architecture comprises a set of small, independent, and autonomous modules which does various services. Every service should have the capability of independent implementation of its corresponding business units. Monolithic architecture is a single unit. But the Microservice architecture has a group of small independent units, which collectively works as a single application. The whole functionalities of an application are broken into separate and independent deployable modules that talk to each other by methods called Application Programming Interfaces (APIs). Each of the services in a Microservices architecture can be independently scaled, deployed, and updated easily.
+
+Two advantages and disadvantages each of microservice and monolithic
+Advantages of microservice:
+Application scaling is very easy as each service can be scaled seperately without scaling the entire application.
+It has high understandability and is very easy to maintain.
+Disadvantages of microservice:
+Testing - Testing of such application is definitely harder compared to a monolith application.
+Difficult to manage a large number of services.
+
+Advantages of monolithic:
+There is easier monitoring and end to end testing.
+There are less security concerns as software consists of single code base. 
+Disadvantages of monolithic:
+Application scaling is very difficult as the entire application should be scaled.
+Time-taking service startup.
+
+Three differences between compiler and interpreter
+A compiler translates complete high-level programming code into machine code at once while an interpreter translates one statement of programming code at a time into machine code.
+With the compiler, as the source code is already converted into machine code, the code execution time becomes short while with the interpreter, as the source code is interpreted line-by-line, error detection and correction become easy.
+An interpreter takes less time to analyze source code as compared to a compiler. However, overall interpreted programming code runs slower as compression to the compiler.
+
+Floating arithmetic:
+In computing, floating-point arithmetic (FP) is arithmetic using formulaic representation of real numbers as an approximation to support a trade-off between range and precision. For this reason, floating-point computation is often used in systems with very small and very large real numbers that require fast processing times. Computers recognize real numbers that contain fractions as floating point numbers. When a calculation includes a floating point number, it is called a "floating point calculation." 
+
+Difference between RDBMS and DBMS
+DBMS represents a Database Management System. It is used to create/update/delete and maintain a database and it provides controlled access to data. RDBMS, Relational Database Management System, is an enhanced version of DBMS.
+Roles of a DBA
+Maintaining backup of the data and recovering the database.
+Responsible for the installations of the software and configurations.
+Has to create new database records for any updates in employees history.
+Responsible for designing the database schema and data objects.
+Makes sure that the security is not breached, to protect the data or information.
+Entity:
+Database entity is a thing, person, place, unit, object or any item about which the data should be captured and stored in the form of properties, workflow and tables. Entity is the key element in all relational databases.
+
+Tuple:
+In the context of relational databases, a tuple is one record (one row). The information in a database can be thought of as a spreadsheet, with columns (known as fields or attributes) representing different categories of information, and tuples (rows) representing all the information from each field associated with a single record.
+
+Cardinality
+It translates into the number of elements in a set. In databases, cardinality refers to the relationships between the data in two database tables. Cardinality defines how many instances of one entity are related to instances of another entity.
+
+Mapping:
+The process to convert a request and the result from one level to another level is known as Mapping. The mapping defines the correspondence between three levels. The mapping description is also stored in data dictionary in the same file of data.
+
+Primary key:
+A primary key is used as a unique identifier to quickly parse data within the table. A table cannot have more than one primary key.
+
+Foreign key:
+A foreign key is a column or group of columns in a relational database table that provides a link between data in two tables. It acts as a cross-reference between tables because it references the primary key of another table, thereby establishing a link between them.
+
+Composite key:
+A composite key is a candidate key that consists of two or more attributes (table columns) that together uniquely identify an entity occurrence (table row). 
+
+ER diagram:
+An ER diagram shows the relationship among entity sets. An entity set is a group of similar entities and these entities can have attributes. In terms of DBMS, an entity is a table or attribute of a table in database, so by showing relationship among tables and their attributes, ER diagram shows the complete logical structure of a database.
+
